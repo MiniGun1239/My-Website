@@ -11,26 +11,26 @@
     justify-content: space-between;
     align-self: stretch;
     width: 100%;
-}
 
-.left-stuff {
-    width: 14%;
-    min-width: fit-content;
-    min-height: fit-content;
-    background-color: var(--cerulean-lake);
-    border: 3px solid var(--cerulean-bold);
-    border-radius: 15px;
-    text-align: center;
-}
+    .left-stuff {
+        width: 14%;
+        min-width: fit-content;
+        min-height: fit-content;
+        background-color: var(--cerulean-lake);
+        border: 3px solid var(--cerulean-bold);
+        border-radius: 15px;
+        text-align: center;
+    }
 
-.right-stuff {
-    width: 14%;
-    min-width: fit-content;
-    min-height: fit-content;
-    background-color: burlywood;
-    border: 3px solid #996e36;
-    border-radius: 15px;
-    text-align: center;
+    .right-stuff {
+        width: 14%;
+        min-width: fit-content;
+        min-height: fit-content;
+        background-color: burlywood;
+        border: 3px solid #996e36;
+        border-radius: 15px;
+        text-align: center;
+    }
 }
 
 .container {
@@ -41,4 +41,73 @@
     justify-items: center;
     padding: 2rem;
     gap: 2rem;
+
+    .main-heading-box {
+        width: 18%;
+        min-width: fit-content;
+        min-height: fit-content;
+        background-color: aquamarine;
+        border: 4px solid #379e7b;
+        border-radius: 8px;
+        padding: 10px;
+
+        .main-heading {
+            font-family: "monospace";
+            text-align: center;
+            margin: 0;
+        }
+    }
+
+    .dynamic-grid {
+        display: grid;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 16px;
+
+        .card {
+            border: 2px solid black;
+            padding: 16px;
+            border-radius: 6px;
+            font: 16px "calibri";
+
+            .card-title {
+                text-align: center;
+                font-family: monospace;
+            }
+
+            .card-description {
+                text-align: center;
+            }
+        }
+
+        #fandom1:hover {
+            background-color: chartreuse;
+            border: 2px solid #4f8e09;
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        #fandom2:hover {
+            background-color: coral;
+            border: 2px solid #ff4400;
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        #fandom3:hover {
+            background-color: #7acbcd;
+            border: 2px solid #00a1c0;
+            transform: scale(1.05);
+            transition: all 0.3s;
+        }
+
+        #fandom4:hover {
+            background-color: yellow;
+            border: 2px solid #7e7e00;
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+    }
 }
