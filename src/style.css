@@ -1,6 +1,9 @@
 :root {
     --cerulean: #007ba7;
     --cerulean-bold: #006f8e;
+    --cerulean-lake: #4fa3c2;
+    --cerulean-sky: #00a1c0;
+    --cerulean-cool: #007bbb;
 }
 
 .header {
