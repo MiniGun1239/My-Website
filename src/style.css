@@ -1,3 +1,8 @@
+:root {
+    --cerulean: #007ba7;
+    --cerulean-bold: #006f8e;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
