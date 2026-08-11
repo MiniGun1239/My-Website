@@ -42,34 +42,3 @@
     padding: 2rem;
     gap: 2rem;
 }
-
-.main-heading-box {
-    width: 18%;
-    min-width: fit-content;
-    min-height: fit-content;
-    background-color: aquamarine;
-    border: 2px solid black;
-    border-radius: 8px;
-    padding: 10px;
-}
-
-.main-heading {
-    font-family: "monospace";
-    text-align: center;
-    margin: 0;
-}
-
-.dynamic-grid {
-    display: grid;
-    align-items: center;
-    width: 100%;
-    max-width: 1200px;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 16px;
-}
-
-.dynamic-grid > div {
-    border: 1px solid black;
-    padding: 16px;
-    border-radius: 6px;
-}
