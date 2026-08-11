@@ -17,8 +17,8 @@
     width: 14%;
     min-width: fit-content;
     min-height: fit-content;
-    background-color: chartreuse;
-    border: 3px solid #51aa19;
+    background-color: var(--cerulean-lake);
+    border: 3px solid var(--cerulean-bold);
     border-radius: 15px;
     text-align: center;
 }
